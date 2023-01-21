@@ -1,7 +1,8 @@
 {
   "name": "@sjoedwards/rollup-components-example",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/sjoedwards"
+    "registry": "https://npm.pkg.github.com/sjoedwards",
+    "access": "public"
   },
   "version": "1.0.1",
   "description": "",
