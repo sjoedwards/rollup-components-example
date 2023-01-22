@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React, { FC, useEffect } from "react";
 
-const Error = () => {
+const Error: FC = () => {
   useEffect(() => {
     const error = new (Error as any)();
     throw error;
@@ -8,3 +8,5 @@ const Error = () => {
 
   return null;
 };
+
+export default Error;
