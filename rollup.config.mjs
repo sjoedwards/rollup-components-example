@@ -3,6 +3,7 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import { terser } from "rollup-plugin-terser";
 import external from "rollup-plugin-peer-deps-external";
+import dts from "rollup-plugin-dts";
 
 import { readFile } from "fs/promises";
 
